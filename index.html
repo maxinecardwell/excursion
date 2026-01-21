@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="coffeechoice.css">
+</head>
+<body>
+    
+    <h1>Coffee Quiz</h1>
+    <h2>Which blend of coffee would you like the most? <br>Take our quiz to find out!</h2>
+
+    <p class="question">Which roast of coffee do you prefer?</p>
+
+    <!--<select id="roastDropdown">
+        <option value="">-- Choose an option --</option>
+        <option value="blonde">Blonde: Lighter-bodied and mellow</option>
+        <option value="medium">Medium: Smooth and balanced</option>
+        <option value="dark">Dark: Fuller-bodied and bold</option>
+    </select> -->
+
+    <button class="answer q1" data-value="blonde">Blonde: Lighter-bodied and mellow</button><br>
+    <button class="answer q1" data-value="medium">Medium: Smooth and balanced</button><br>
+    <button class="answer q1" data-value="dark">Dark: Fuller-bodied and bold</button>
+
+    <p class="question">Which region of coffee do you prefer?</p>
+
+    <!-- <select id="roastDropdown">
+        <option value="">-- Choose an option --</option>
+        <option value="latinAmerica">Latin America: Well-balanced flavours of cocoa or nuts and crisp, bright acidity</option>
+        <option value="africa">Africa: Fruity, floral and citrus flavours</option>
+        <option value="asiaPacific">Asia/Pacific: Full body and spicy flavours with balanced acidity and herbal notes</option>
+    </select> -->
+
+    <button class="answer q2" data-value="latinAmerica">Latin America: well-balanced flavours of cocoa or nuts and crisp, bright acidity</button><br>
+    <button class="answer q2" data-value="africa">Africa: fruity, floral and citrus flavours</button><br>
+    <button class="answer q2" data-value="asiaPacific">Asia/Pacific: full-bodied and syrupy smooth with herbal, earthy notes</button>
+
+    <p class="question">Which acidity gets your tastebuds going?</p>
+
+    <button class="answer q3" data-value="low">Low: rounded, smooth sensation on the tongue</button><br>
+    <button class="answer q3" data-value="medium">Medium: good mouthfeel which represents a mix of tangy and smooth sensations</button><br>
+    <button class="answer q3" data-value="high">High: concentrated, lively sensation after tasting</button>
+
+    <p class="question">Which body would you prefer?</p>
+
+    <button class="answer q4" data-value="light">Light: thin with very little texture or weight on the tongue</button><br>
+    <button class="answer q4" data-value="mediumBody">Medium: smooth, even texture, neither fleeting nor overwhelming</button><br>
+    <button class="answer q4" data-value="full">Full: creamy, thick and lingers on the tongue</button>
+
+    <p class="question">Which processing method creates the best flavour for you?</p>
+    
+    <button class="answer q5" data-value="washed">Washed: pleasant acidity, nuanced flavors and clean finish</button><br>
+    <button class="answer q5" data-value="semiWashed">Semi-Washed: earthy, herbal flavors with big, syrupy body and greatly muted acidity</button>
+    <button class="answer q5" data-value="natural">Natural: full body and intense, fruity flavors</button><br>
+
+    <p class="question">Do you prefer single origin or mutli-region blend coffees?</p>
+    
+    <button class="answer q6" data-value="singleOrigin">Single-Origin: unique flavour profile influenced by the terroir of its source country</button><br>
+    <button class="answer q6" data-value="preRoastblend">Pre-Roast: a smooth, balanced blend with a more uniform flavour profile and richness</button>
+    <button class="answer q6" data-value="postRoastblend">Post-Roast: each origin's beans get a chance to shine by being roasted to their full potential separately and blended afterward</button>
+
+    <p class="question">Which flavour do you like the most?</p>
+    
+    <button class="answer q7" data-value="caramel">Caramel: molasses/brown sugar</button><br>
+    <button class="answer q7" data-value="chocolate">Chocolate: cocoa</button><br>
+    <button class="answer q7" data-value="citrus">Citrus: lemon/orange</button><br>
+    <button class="answer q7" data-value="nuts">Nuts: walnuts/pecans/hazelnuts</button><br>
+    <button class="answer q7" data-value="herbal">Herbal: earthy/soft spices</button><br>
+    <button class="answer q7" data-value="berries">Berries: black currants/blackberries</button><br>
+
+    <p class="question">Preferred brew method?</p>
+
+    <button class="answer q8" data-value="espresso">Espresso</button><br>
+    <button class="answer q8" data-value="frenchPress">French Press/brewed</button><br>
+    <button class="answer q8" data-value="overIce">Over ice</button><br>
+
+    <!-- Finish Button -->
+    <br>
+    <button id="finish" class="answer">Finish Quiz</button>
+
+    <!-- Final Result -->
+    <p id="finalResult"></p>
+
+    <script src="coffeechoice.js" ></script>
+
+</body>
+</html>
